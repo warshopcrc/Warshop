@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WARSHOP</string>
+    <string name="msg_dengan_melanjut">Dengan menyetujui Syarat &amp; Ketentuan dan Kebijakan Privasi Kami anda dapat melanjutkan</string>
+    <string name="lbl_daftar">daftar</string>
+    <string name="frist_name">Frist Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="masuk">Masuk</string>
+    <string name="set_up_your_profile">Set Up your Profile</string>
+</resources>

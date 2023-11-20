@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/frameRegister"
+        style="@style/grousStylewhite_A700"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#614F42"
+        tools:layout_editor_absoluteX="-95dp"
+        tools:layout_editor_absoluteY="-45dp">
+
+        <FrameLayout
+            android:id="@+id/frameStacklogovirclethree"
+            android:layout_width="290dp"
+            android:layout_height="189dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_50pxh"
+            app:layout_constraintBottom_toTopOf="@id/InputEmailLogin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_warshop"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearColumndaftarvircle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_200pxh"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SetUp"
+                style="@style/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_50pxh"
+                android:text="Set Up your Profile"
+                android:textColor="@color/g_gray500"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/InputEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                app:boxBackgroundColor="@color/white"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="@dimen/_10pxh"
+                app:boxCornerRadiusBottomStart="@dimen/_10pxh"
+                app:boxCornerRadiusTopEnd="@dimen/_10pxh"
+                app:boxCornerRadiusTopStart="@dimen/_10pxh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frameStacklogovirclethree"
+                app:layout_constraintWidth_default="spread">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/img_vector"
+                    android:drawablePadding="16dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="7dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/g_gray700"
+                    tools:ignore="Autofill,HardcodedText" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/InputPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="30dp"
+                app:boxBackgroundColor="@color/white"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="@dimen/_10pxh"
+                app:boxCornerRadiusBottomStart="@dimen/_10pxh"
+                app:boxCornerRadiusTopEnd="@dimen/_10pxh"
+                app:boxCornerRadiusTopStart="@dimen/_10pxh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_percent="0.8"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/img_lock"
+                    android:drawablePadding="@dimen/_19pxh"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:paddingStart="@dimen/_12pxh"
+                    android:paddingTop="@dimen/_6pxh"
+                    android:paddingEnd="@dimen/_20pxh"
+                    android:paddingBottom="@dimen/_7pxh"
+                    android:singleLine="true"
+                    android:textColorHint="@color/g_gray700"
+                    tools:ignore="HardcodedText" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/txtLupaPasword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/_10pxh"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:text="Lupa Password?"
+                android:textColor="@color/g_gray500"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/InputPasswordLogin"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMasuk"
+                style="@style/btnSolidRounded"
+                android:layout_width="@dimen/_280pxh"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_25pxh"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_11pxh"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingBottom="@dimen/_11pxh"
+                android:singleLine="true"
+                android:text="Login"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textColor="#2B2B2B"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/linearRowlanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30pxh"
+                android:layout_marginBottom="@dimen/_20pxh"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtLanguage"
+                    style="@style/h2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:text="--------Or Login With---------"
+                    android:textColor="@color/white_A700"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnGoole"
+                    style="@style/btnSolidRounded"
+                    android:layout_width="@dimen/_180pxh"
+                    android:layout_height="@dimen/_50pxh"
+                    android:drawableStart="@drawable/icons8_google"
+                    android:paddingStart="@dimen/_16pxh"
+                    android:paddingEnd="@dimen/_11pxh"
+                    android:text="Google"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="#2B2B2B"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnFacebook"
+                    style="@style/btnSolidRounded"
+                    android:layout_width="@dimen/_180pxh"
+                    android:layout_height="@dimen/_50pxh"
+                    android:drawableStart="@drawable/icons8_facebook"
+                    android:paddingStart="@dimen/_16pxh"
+                    android:paddingEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_5pxh"
+                    android:text="Facebook"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="#2B2B2B"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
