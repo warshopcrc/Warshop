@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     style="@style/grousStylewhite_A700"
-    android:background="#614F42">
+    android:background="#604531">
     <TextView
         android:id="@+id/SetUp"
         style="@style/h2"
@@ -251,7 +251,7 @@
             android:id="@+id/btnDaftar"
             style="@style/btnSolidRounded"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginStart="@dimen/_12pxh"
             android:layout_marginTop="@dimen/_30pxh"
             android:layout_marginEnd="@dimen/_12pxh"
@@ -264,7 +264,7 @@
             android:singleLine="true"
             android:text="@string/lbl_daftar"
             android:textAllCaps="false"
-            app:spinning_bar_color="#000000"
+            app:spinning_bar_color="@color/black"
             tools:ignore="TextSizeCheck"
             tools:text="@string/lbl_daftar" />
     </LinearLayout>

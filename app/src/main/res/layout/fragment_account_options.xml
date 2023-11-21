@@ -7,7 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#614F42">
+        android:background="#604531">
 
         <ImageView
             android:id="@+id/logogroup"
@@ -32,14 +32,13 @@
             tools:layout_editor_absoluteY="61dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnMasuk"
+            android:id="@+id/btnRegister"
             style="@style/btnSolidRounded"
             android:layout_width="@dimen/_250pxh"
             android:layout_height="@dimen/_50pxh"
             android:layout_gravity="center"
-            android:drawableStart="@drawable/icons8_google"
             android:paddingStart="@dimen/_16pxh"
-            android:text="Sign Up With Google"
+            android:text="Register"
             android:textAllCaps="false"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -63,43 +62,5 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="@+id/logowarshop"
             app:layout_constraintTop_toBottomOf="@+id/logowarshop" />
-
-        <LinearLayout
-            android:id="@+id/linearRowlanguage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="@+id/logowarshop"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/logowarshop"
-            app:layout_constraintTop_toBottomOf="@+id/logowarshop">
-
-            <TextView
-                android:id="@+id/txtLanguage"
-                style="@style/h2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="@dimen/_80pxh"
-                android:layout_weight="0.65"
-                android:ellipsize="end"
-                android:singleLine="true"
-                android:text="Belum Punya Akun?"
-                android:textColor="@color/g_gray500" />
-
-            <TextView
-                android:id="@+id/txtDaftar"
-                style="@style/h2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="@dimen/_60pxh"
-                android:layout_marginBottom="0dp"
-                android:layout_weight="0.25"
-                android:ellipsize="end"
-                android:singleLine="true"
-                android:text="daftar"
-                android:textColor="@color/g_gray500" />
-        </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

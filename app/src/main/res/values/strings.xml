@@ -8,6 +8,8 @@
     <string name="password">Password</string>
     <string name="konfirmasi_password">Konfirmasi Password</string>
     <string name="sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="Belum_punya_akun">Belum Punya Akun?</string>
     <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
     <string name="set_up_your_profile">Set Up your Profile</string>
 </resources>
