@@ -12,4 +12,6 @@
     <string name="masuk">Masuk</string>
     <string name="daftar">Daftar</string>
     <string name="set_up_your_profile">Set Up your Profile</string>
+    <string name="search_now">Search Now</string>
+    <string name="tabs_for_navigation">Tabs for navigation</string>
 </resources>

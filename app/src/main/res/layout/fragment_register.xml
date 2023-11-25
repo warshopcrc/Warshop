@@ -204,7 +204,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.60"
                 android:ellipsize="end"
-                android:paddingStart="60sp"
+                android:paddingStart="55sp"
                 android:singleLine="true"
                 android:text="@string/sudah_punya_akun"
                 tools:ignore="RtlSymmetry,TextSizeCheck" />
