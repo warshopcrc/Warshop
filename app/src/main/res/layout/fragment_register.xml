@@ -34,7 +34,7 @@
         android:layout_width="match_parent" android:orientation="vertical">
 
 
-        <com.google.android.material.textfield.TextInputLayout
+          <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/firstnameRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

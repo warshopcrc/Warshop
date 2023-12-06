@@ -15,7 +15,7 @@ import com.example.warshop1.activites.ShoppingActivity
 import com.example.warshop1.databinding.FragmentLoginBinding
 import com.example.warshop1.dialog.setupBottomSheetDialog
 import com.example.warshop1.util.Resource
-import com.example.warshop1.viewmodel.LoginViewModel
+import com.example.warshop1.helper.viewmodel.LoginViewModel
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect

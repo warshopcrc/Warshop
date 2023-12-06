@@ -3,4 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/tambahproduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:text="Tambah Product"
+        android:textColor="#3A2A0B"
+        android:gravity="center"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

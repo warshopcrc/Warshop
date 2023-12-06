@@ -8,6 +8,7 @@ import com.example.warshop1.R
 import com.example.warshop1.databinding.ActivityShoppingBinding
 import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ShoppingActivity : AppCompatActivity() {
 
     val binding by  lazy {

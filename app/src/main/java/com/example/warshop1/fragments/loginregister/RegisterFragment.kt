@@ -16,7 +16,7 @@ import com.example.warshop1.util.RegisterFieldState
 import com.example.warshop1.util.RegisterValidation
 import com.example.warshop1.util.Resource
 import com.example.warshop1.util.validateEmail
-import com.example.warshop1.viewmodel.RegisterViewModel
+import com.example.warshop1.helper.viewmodel.RegisterViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect

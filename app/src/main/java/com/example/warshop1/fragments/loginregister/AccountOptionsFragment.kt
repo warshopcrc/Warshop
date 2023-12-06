@@ -12,7 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.warshop1.R
 import com.example.warshop1.activites.ShoppingActivity
 import com.example.warshop1.databinding.FragmentAccountOptionsBinding
-import com.example.warshop1.viewmodel.IntroductionViewModel
+import com.example.warshop1.helper.viewmodel.IntroductionViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
